@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WordListDB">
         <activity
+            android:name=".SearchActivity"
+            android:exported="true" />
+        <activity
             android:name=".WordItem"
             android:exported="true" />
         <activity
